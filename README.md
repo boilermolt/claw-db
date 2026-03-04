@@ -7,7 +7,9 @@ This repo contains **everything needed to replicate the memory DB system** on an
 ## Contents
 - `scripts/memory_db_init.sql` — schema + FTS5 + triggers
 - `scripts/memory_db.py` — CLI (upsert/search/get/expire)
+- `scripts/memory-db.sh` — helper wrapper (default DB path on Bobby drive)
 - `docs/memory-db-setup-vps.md` — step-by-step VPS setup
+- `docs/usage.md` — helper usage + memory policy
 
 ## Quick start
 ```bash
